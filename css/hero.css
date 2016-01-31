@@ -5,18 +5,24 @@ html, body{
 
 header{
 	background-color: #ff4d4d;
+  background-image: url("../img/dogs.jpg");
+  background-position: center;
+  box-shadow: 0 0px 10px black;
 	padding: 40px;
 text-align: center;
 
 }
 h1{
 font-size: 90px;
-color: white
+color: white;
+text-shadow: 0 4px 20px black;
+margin: 60px;
 }
 header img{
    border-radius: 150px;
    width: 300px;
    border: 15px solid #FF9100;
+   box-shadow: 0 0 10px;
 }
   .content{
 	max-width: 900px;
@@ -26,10 +32,11 @@ header img{
 
   img.big-image{
   	max-width: 100%;
+    box-shadow: 0 0 5px black;
   }
 
   p.caption{
-  	font-size: 16px;
+  	font-size: 13px;
   	color: #1a76ff;
   	font-style: italic;
   }
@@ -43,10 +50,14 @@ a{
 	color: #ff4d4d;
 	text-decoration: none;
 }
+a:hover{
+  color: black;
+}
 footer{
   margin-top: 20px;
 	padding: 40px 20px;
-	background-color: #E8E8E8;
+	background-color: #b3b3b3;
+  box-shadow: 0 0 10px black;
 }
 footer ul{
   text-align: center;
